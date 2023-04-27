@@ -134,12 +134,12 @@ params:
     socialLinks:
       fontAwesomeIcons:
         - icon: fab fa-github
-          url: https://example.com
+          url: https://github.com/muralikumarch
         - icon: fab fa-twitter
-          url: https://example.com
+          url: https://twitter.com/MuralikumarCh
       customIcons:
-        - icon: /fav1.png
-          url: "https://example.com"
+        - icon: fa-brands fa-linkedin
+          url: "https://www.linkedin.com/in/chvmuralikumar/"
 
   # About
   about:
@@ -167,7 +167,7 @@ params:
     # title: "Custom Name"
     items:
       - job: "Pricipal Java Developer"
-        company: "Parexel International (India) Pvt Ltd – Hyderabad"
+        company: "Parexel"
         companyUrl: "https://parexel.com"
         date: "Sep 2014 - present"
         featuredLink:
@@ -175,7 +175,7 @@ params:
           name: "View the project"
           url: "https://example.com"
         content: |
-          I am currently working as a Pricipal Java developer at [Parexel org.](https://parexel.com) in Hyderabad, India. I am currently working on a web-based application that facilitates central online management of adjudication activities.
+          I am currently working as a Pricipal Java developer at [Parexel International (India) Pvt. Ltd.](https://parexel.com) in Hyderabad, India. I am currently working on a web-based application that facilitates central online management of adjudication activities.
           
           - Use Java/J2EE, Spring, Spring boot, Hibernate technologies to develop web applications for client server environments and add functionalities to existing applications.
           - Conduct user requirements analysis to design and program applications and deliver support for system enhancement.
@@ -185,57 +185,58 @@ params:
           - Designed, configured, and deployed Microsoft Azure for a multitude of applications utilizing the Azure, focusing on high - availability, fault tolerance, and auto-scaling.
           - Developed methodologies for cloud migration, implemented best practices and helped to develop backup and recovery techniques for applications and database on virtualization platform.
 
-
-      - job: "Software Developer"
-        company: "Amazon"
-        companyUrl: "https://example.com"
-        date: "Sep 2020 - Dec 2021"
+      - job: "Senior Software Engineer"
+        company: "Kony"
+        companyUrl: "https://kony.com"
+        date: "Oct 2013 – Sep 2014"
         featuredLink:
-          enable: true
+          enable: false
           url: "https://example.com"
         info:
-          enable: true
-          content: I worked as a software developer for more than one year in Amazon.
+          enable: false
+          content: I worked as a senior software engineer for not more than one year in Kony.
         content: |
-          I am currently working as a software developer at [example org.](https://example.com) in San Francisco, CA. I am currently working on a project that will be used to help people find the best way to get around the city.
+          I worked as a senior software engineer at [Kony IT Services Pvt Ltd.](https://kony.com) in Hyderabad, India.
 
-          - Lead backend developer for a product.
-          - Created a frontend design for a product.
+          - Involved various mobile apps development with Kony Mobile Platform.
+          - in implementing custom features, UI design along with business team
+          - Developed and integrated processes into system life cycle management
 
-      - job: "Junior Software Developer"
-        company: "Apple"
-        companyUrl: "https://example.com"
-        date: "Jan 2020 - Aug 2020"
+      - job: "Software Engineer"
+        company: "Wipro"
+        companyUrl: "https://wipro.com"
+        date: "Mar 2010 – Oct 2013"
         info:
           enable: false
         featuredLink:
-          enable: true
+          enable: false
           url: "https://example.com"
         content: |
-          I am currently working as a software developer at [example org.](https://example.com) in San Francisco, CA. I am currently working on a project that will be used to help people find the best way to get around the city.
+          I worked as a software engineer at [Wipro Technologies ](https://wipro.com) in Hyderabad, India.
+          
+          - Rendered solid technical expertise in SDLC and various Java/J2EE web application developments with Core Java, JSP, Spring, JBOSS 5 and Oracle 10g.
+          - Developed highly interactive and customized UI using JavaScript, HTML, JSP, and CSS to improve functionality of web applications.
+          - Performed unit testing of applications by developing and applying test cases in JUnit.
 
-          - Lead backend developer for a product.
-          - Created a frontend design for a product.
-
-      - job: "UI/UX Designer"
-        company: "Netflix"
-        companyUrl: "https://example.com"
-        date: "June 2017 - Nov 2019"
+      - job: "Software Engineer"
+        company: "N-Dime"
+        companyUrl: "https://n-dime.com"
+        date: "Oct 2007 – Mar 2010"
+        info:
+          enable: false
         featuredLink:
-          enable: true
+          enable: false
           url: "https://example.com"
         content: |
-          I am currently working as a software developer at [example org.](https://example.com) in San Francisco, CA. I am currently working on a project that will be used to help people find the best way to get around the city.
+          I worked as a software engineer at [N-Dime Technologies ](https://n-dime.com) in Hyderabad, India.
+          
+          - Rendered solid technical expertise in SDLC and various Java/J2EE web application developments with Core Java, JSP, Spring, Tomcat and Oracle.
+          - Developed highly interactive and customized UI using JavaScript, HTML, JSP, and CSS to improve functionality of web applications.
+          - Performed unit testing of applications by developing and applying test cases in JUnit.
+          - Worked in a team of designers, developers, and business specialists.
+          - Developed reusable component libraries using J2EE technologies, Spring Framework, Tomcat, and Oracle to save time and increase productivity.
 
-          - Lead backend developer for a product.
-          - Created a frontend design for a product.
-
-      - job: "Product Designer"
-        company: "Google"
-        companyUrl: "https://example.com"
-        date: "Feb 2016 - Mar 2017"
-        content: "I am currently working as a software developer at [example org.](https://example.com) in San Francisco, CA. I am currently working on a project that will be used to help people find the best way to get around the city."
-
+          
   # Education
   education:
     enable: true
