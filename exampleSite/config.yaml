@@ -1,6 +1,6 @@
-baseURL: "https://hugo-profile.netlify.app"
+baseURL: "https://chvmuralikumar-profile.netlify.app/"
 languageCode: "en-us"
-title: "Hugo Profile"
+title: "CH V Muralikumar - Profile"
 theme: hugo-profile
 
 outputs:
@@ -53,8 +53,8 @@ Menus:
     #   weight: 2
 
 params:
-  title: "Hugo Profile"
-  description: Text about my cool site
+  title: "CH V Muralikumar - Profile"
+  description: CH V Muralikumar - Profile
   # staticPath: ""  # The path to serve the static files from
   favicon: "/fav.png"
 
@@ -103,7 +103,7 @@ params:
     align: ms-auto # Left: ms-auto | center: mx-auto | right: me-auto | Default: ms-auto
     # brandLogo: "/logo.png" # Logo for the brand | default is the favicon variable
     # showBrandLogo: false # Show brand logo in nav bar | default is true
-    brandName: "Hugo Profile" # Brand name for the brand | default is the title variable
+    brandName: "CH V Muralikumar - Profile" # Brand name for the brand | default is the title variable
     disableSearch: false
     # searchPlaceholder: "Search"
     menus:
@@ -118,9 +118,9 @@ params:
   hero:
     enable: true
     intro: "Hi, my name is"
-    title: "Isabella."
-    subtitle: "I build things for the web"
-    content: "A passionate web app developer. I tend to make use of modern web technologies to build websites that looks great, feels fantastic, and functions correctly."
+    title: "Muralikumar."
+    subtitle: "Pricipal Java Developer"
+    content: "Highly motivated and experienced software professional with over 15+ years of experience in Java and Microsoft Azure. Adept at using Java/J2EE, Spring Framework, Hibernate, and various Azure services to develop and deploy secure, scalable, and high performing applications. Excellent problem-solving and communication skills with a strong ability to work in a team environment."
     image: /images/hero.svg
     bottomImage:
       enable: true
@@ -138,7 +138,7 @@ params:
         - icon: fab fa-twitter
           url: https://example.com
       customIcons:
-        - icon: /fav.png
+        - icon: /fav1.png
           url: "https://example.com"
 
   # About
@@ -147,34 +147,44 @@ params:
     title: "About Me"
     image: "/images/me.png"
     content: |-
-      I am a software developer with a passion for web development. I have a background in computer science and mathematics, and I have a strong interest in the intersection of technology and art. I am currently working as a software developer at [example org.](https://example.com) in San Francisco, CA. 
+      Highly motivated and experienced software professional with over 15+ years of experience in Java and Microsoft Azure. Adept at using Java/J2EE, Spring Framework, Hibernate, and various Azure services to develop and deploy secure, scalable, and high performing applications. Excellent problem-solving and communication skills with a strong ability to work in a team environment. I am currently working as a principal java developer at [Parexel International (India) Pvt. Ltd.](https://parexel.com) in Hyderabad, India. 
 
-      I am currently working on a project that will be used to help people find the best way to get around the city.
+      
     skills:
       enable: true
       title: "Here are a few technologies I've been working with recently:"
       items:
-        - "HTML"
-        - "CSS"
-        - "JavaScript"
+        - "Java"
+        - "Spring Framework, Spring boot"
+        - "Hibernate, JPA, JSP"
+        - "JavaScript, HTML, CSS"
+        - "Oracle"
         - "React"
-        - "Node"
-        - "Express"
 
   # Experience
   experience:
     enable: true
     # title: "Custom Name"
     items:
-      - job: "Senior Software Developer"
-        company: "Facebook"
-        companyUrl: "https://example.com"
-        date: "Jan 2022 - present"
+      - job: "Pricipal Java Developer"
+        company: "Parexel International (India) Pvt Ltd – Hyderabad"
+        companyUrl: "https://parexel.com"
+        date: "Sep 2014 - present"
         featuredLink:
-          enable: true
+          enable: false
           name: "View the project"
           url: "https://example.com"
-        content: "I am currently working as a software developer at [example org.](https://example.com) in San Francisco, CA. I am currently working on a project that will be used to help people find the best way to get around the city."
+        content: |
+          I am currently working as a Pricipal Java developer at [Parexel org.](https://parexel.com) in Hyderabad, India. I am currently working on a web-based application that facilitates central online management of adjudication activities.
+          
+          - Use Java/J2EE, Spring, Spring boot, Hibernate technologies to develop web applications for client server environments and add functionalities to existing applications.
+          - Conduct user requirements analysis to design and program applications and deliver support for system enhancement.
+          - Play a pivotal role as a part of an agile scrum team accountable, developing new applications using Spring framework.
+          - Involved in development of various stories and bugs of various for VCAS (Virtual Clinical Adjudication System) projects and contribute to other technical documentation activities. Developed UI and Service layer components for various modules.
+          - Hands on experience in Azure Development, worked on Azure web application, App services, Azure storage, Azure SQL Database, Virtual machines.
+          - Designed, configured, and deployed Microsoft Azure for a multitude of applications utilizing the Azure, focusing on high - availability, fault tolerance, and auto-scaling.
+          - Developed methodologies for cloud migration, implemented best practices and helped to develop backup and recovery techniques for applications and database on virtualization platform.
+
 
       - job: "Software Developer"
         company: "Amazon"
