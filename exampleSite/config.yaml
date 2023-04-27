@@ -258,24 +258,6 @@ params:
           name: "Andhra University, Vishakapatnam, AP, IN"
           url: "https://example.org"
         date: "2000 - 2003"
-        
-  # Education
-  education:
-    enable: true
-    # title: "Custom Name"
-    index: false
-    items:
-      - title: "Master of Computer Application(M.C.A)"
-        school:
-          name: "Andhra University, Vishakapatnam, AP, IN"
-          url: "https://example.org"
-        date: "2003 - 2006"
-        
-      - title: "Bachelor of Science(B.Sc.) in Computer Science"
-        school:
-          name: "Andhra University, Vishakapatnam, AP, IN"
-          url: "https://example.org"
-        date: "2000 - 2003"
 
 
   # Achievements
